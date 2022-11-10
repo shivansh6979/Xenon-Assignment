@@ -1,0 +1,34 @@
+.product-img {
+  width: 450px;
+  height: 180px;
+  border-radius: 30px;
+}
+
+.product-detail {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.column-feature {
+  border-radius: 20px;
+}
+
+@media (max-width: 550px) {
+  .column-feature {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    margin-bottom: 20px;
+  }
+
+  .product-img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 290px;
+  }
+
+  .product-price {
+    margin-top: 30px;
+  }
+}

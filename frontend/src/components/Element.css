@@ -1,0 +1,14 @@
+.image {
+  width: 260px;
+  height: 260px;
+  margin-top: 40px;
+  margin-left: 5px;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+
+.title,
+.rating,
+.price {
+  margin-top: 10px;
+}
